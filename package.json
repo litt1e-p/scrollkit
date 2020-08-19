@@ -1,0 +1,31 @@
+{
+  "name": "scrollkit",
+  "version": "0.0.1",
+  "description": "a smooth scroll kit component for vue",
+  "config": {
+    "libName": "scrollkit"
+  },
+  "keywords": [
+    "scroll",
+    "scrollkit",
+    "smooth scroll",
+    "vue"
+  ],
+  "author": "litt1e-p",
+  "license": "MIT",
+  "main": "dist/scrollkit.umd.js",
+  "module": "dist/scrollkit.esm.js",
+  "unpkg": "dist/scrollkit.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litt1e-p/scrollkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/litt1e-p/scrollkit/issues"
+  },
+  "homepage": "https://github.com/litt1e-p/scrollkit#readme",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "refreshable": "^0.0.4"
+  }
+}
