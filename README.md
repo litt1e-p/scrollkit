@@ -29,7 +29,7 @@ components: {
 
 ## Usage
 
-1. wrap your html or components directly
+- 1. wrap your html or components directly
 
 ```html
 <scrollkit>
@@ -37,13 +37,24 @@ components: {
 </scrollkit>
 ```
 
-2. custom-built for your own
+- 2. custom-built for your own
+
+vertical scroll(default)
 ```html
  <scrollkit direction="vertical" :scrollbar="false" :bounce="true" :observeScroll="true" :observeBeforeScroll="true" :observeScrollEnd="true" @scroll="" @beforeScrollStart="" @scrollEnd="">
   // your html      
 </scrollkit>
 ```
-3. layout calculation
+
+horizontal scroll
+
+```html
+ <scrollkit direction="horizontal" :scrollbar="false" :bounce="true" :observeScroll="true" :observeBeforeScroll="true" :observeScrollEnd="true" @scroll="" @beforeScrollStart="" @scrollEnd="">
+  // your html      
+</scrollkit>
+```
+
+- 3. layout calculation
 
 ```js
 this.$refs.scrollkit.setNeedsLayout()
