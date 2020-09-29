@@ -63,4 +63,4 @@ this.$refs.scrollkit.setNeedsLayout()
 
 ## Notice
 
-> your `fixed` component or dom element will not effects when wrapped in `<scrollkit>` cause of the dependency of the lib is base on `transform`. therefore, your should place all `fixed` elements out of the wrapper.
+> your `fixed` component or dom element will not effects when wrapped in `<scrollkit>` cause of the dependency of the lib is base on `transform`. therefore, your should place all `fixed` elements out of the wrapper. you should set style with `display: inline-block` for wrapper of horizontal scroll component.
