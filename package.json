@@ -1,6 +1,6 @@
 {
   "name": "scrollkit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a smooth scroll kit component for vue",
   "config": {
     "libName": "scrollkit"
