@@ -1,6 +1,6 @@
 {
   "name": "scrollkit",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "a smooth scroll kit component for vue",
   "config": {
     "libName": "scrollkit"
@@ -26,6 +26,6 @@
   "homepage": "https://github.com/litt1e-p/scrollkit#readme",
   "dependencies": {
     "vue": "^2.6.12",
-    "refreshable": "^0.2.3"
+    "refreshable": "^0.2.5"
   }
 }
