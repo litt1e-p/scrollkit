@@ -1,29 +1,30 @@
 # Scrollkit
 
-a smooth scroll kit component for vue which has excellent performance (59-60fps) in browsers testing
+a smooth scroll kit component for vue which has excellent performance (59-60fps) in browsers testing for vue 3.x
 
 ## Installation
 
 ```js
-npm i scrollkit
+npm i scrollkit@next
 ```
 
 1. globally
 ```js
 import Scrollkit from 'scrollkit'
 
-Vue.use(Scrollkit)
+createApp(App).use(Scrollkit)
 ```
 
 2. partially
 ```js
+
+<script setup>
+
 import { Scrollkit } from 'scrollkit'
 
-<script>
-components: {
-  Scrollkit
-}
 </script>
+
+or defineComponent & component
 
 ```
 
@@ -57,7 +58,8 @@ horizontal scroll
 - 3. layout calculation
 
 ```js
-this.$refs.scrollkit.setNeedsLayout()
+const scrollkitRef = ref(null)
+scrollkitRef.value.setNeedsLayout()
 ```
 > re-calculation layout does not needed since scrollkit provides the auto detective ability for dom mutation
 
