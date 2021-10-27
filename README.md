@@ -24,7 +24,7 @@ import { Scrollkit } from 'scrollkit'
 
 </script>
 
-or defineComponent & component
+or use defineComponent & component
 
 ```
 
