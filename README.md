@@ -2,6 +2,7 @@
 
 a smooth scroll kit component for vue which has excellent performance (59-60fps) in browsers testing
 
+> [vue 3.x supports](https://github.com/litt1e-p/scrollkit/tree/next)
 ## Installation
 
 ```js
